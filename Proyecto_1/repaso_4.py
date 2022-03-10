@@ -11,12 +11,12 @@ paciente_1 = ("Ana", 25, 55)
 print(paciente_1[0])
 
 # El contenido de las tuplas no puede ser modificado. INMUTABLES
-# paciente_1[1] = 30 # Nooo
+#paciente_1[1] = 30 # Nooo
 
 # Recupero datos de la tupla
+nombre, edad, peso = paciente_1
 
-
-# print(f'paciente 1: {nombre}, edad: {edad}, peso: {peso}')
+print(f'paciente 1: {nombre}, edad: {edad}, peso: {peso}')
 
 #%%
 # las tuplas suelen usarse para un solo ítem de múltiples partes
@@ -32,7 +32,8 @@ nombres_pacientes = ["Ana", "Pedro", "Jeremías"]
 # lista de tuplas 
 
 registros = []
-
+registros.append(paciente_1)
+registros.append(paciente_2)
 
 print(registros)
 
@@ -43,13 +44,17 @@ print(registros)
 # y valores. Las claves sirven como índices para acceder a los
 # valores.
 
-# pacientes = { 'Ana': 25, 'Pedro': 22, 'Jeremías': 30 }
+pacientes = { 'Ana': 25, 'Pedro': 22, 'Jeremías': 30 }
 
-# print(pacientes['Ana'])
+print(pacientes['Ana'])
 
-# pacientes['Ana'] = 26
+pacientes['Ana'] = 26
 
-# print(pacientes)
+print(pacientes)
+
+# Agrego un nuevo elemento al diccionario
+pacientes['Alan'] = 22
+print(pacientes)
 
 #%%
 
@@ -58,7 +63,9 @@ print(registros)
 # Por ejemplo, tuplas:
     
 
-feriados = { }
+feriados = { (1, 1):'Año nuevo', (1, 5):'Día del trabajador' }
+print( feriados[(1,1)] )
+
 
 
 # las listas, los diccionarios y los conjuntos no pueden ser claves
@@ -71,13 +78,13 @@ feriados = { }
 
 conjunto1 = set(["banana", "naranja", "pera"])
 
-#print(conjunto1)
+print(conjunto1)
 
 # Son mutables pero no permiten indexación ni slicing
 # .add(), .remove()
 
-# conjunto1.add("manzana")
-# print(conjunto1)
+conjunto1.add("manzana")
+print(conjunto1)
 
 conjunto2 = set(["kiwi", "naranja", "sandía"])
 
@@ -85,7 +92,7 @@ conjunto2 = set(["kiwi", "naranja", "sandía"])
 # s1 & s2                 # Intersección de conjuntos
 # s1 - s2                 # Diferencia de conjuntos
 # print(conjunto2)
-# conjunto = conjunto2 - conjunto1
+conjunto = conjunto2 - conjunto1
 # print()
 
-# print(conjunto)
+print(conjunto)
