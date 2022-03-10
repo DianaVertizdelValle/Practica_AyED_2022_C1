@@ -14,6 +14,7 @@ random_float = random.random()
 print(5*random_float)
 
 #%%
+# https://docs.python.org/3.9/library/stdtypes.html#sequence-types-list-tuple-range
 # Python tiene tipos de datos integradas un poco
 # más complejas que los tipos de datos 
 # strings, enteros, flotantes, booleanos, etc

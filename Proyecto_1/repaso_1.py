@@ -7,12 +7,13 @@
 # string, int, float, boolean
 #%%
 # print and strings
+# https://docs.python.org/3.9/library/stdtypes.html#text-sequence-type-str
 
 
 # "" indican un string: cadena de caracteres
-
 #%%
-# concatenación
+# concatenación de strings
+
 
 
 #%%
@@ -35,6 +36,7 @@ variable_str = "estudiante"
 # print("123"+"456")
 # print(type(variable_str))
 
+#%%
 # También se puede rebanar (slice) o seleccionar subcadenas 
 # especificando un rango de índices con :
 
@@ -53,6 +55,7 @@ variable_str = "estudiante"
 ########################################################################
 # print(variable_str)
 #%%
+# No puedo hacer lo siguiente
 variable_str = "estudiante"
 
 variable_str[3] = "r"
@@ -73,7 +76,8 @@ tamanio = len(nombre_usuario)
 print("Tu nombre tiene " + tamanio + " letras")
 
 #%%
-#enteros
+# https://docs.python.org/3.9/library/stdtypes.html#numeric-types-int-float-complex
+# enteros
 numero_int = 1_253_765
 
 
@@ -97,9 +101,10 @@ print(type(variable_bool))
 # + - * / **
 # PEMDAS: Parentesis-Exponentes-Mult/Div-Suma/Resta
 # la prioridad de solución es de izq a der
-#print(3*3+3/3-3)
+# print(3*3+3/3-3)
 
 #%%
+# División entera
 #print(int(8/3))
 #print(round(8/3, 2))
 print(type(8//3)) #obtengo un tipo entero

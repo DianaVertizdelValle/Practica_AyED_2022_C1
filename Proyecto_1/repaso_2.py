@@ -17,7 +17,7 @@
     
 # > ,< ,>=, <=, ==, !=
 # diferencia entre asignación y chequear condición de igualdad
-
+# Más de una condición en el if
 #%%
 # si el alumno alcanza la nota de regularidad, debemos
 # fijarnos también que cumple con una asistencia mayor al 50%

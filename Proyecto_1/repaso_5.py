@@ -8,8 +8,8 @@
 #%%
 # Usá funciones para encapsular código que quieras reutilizar.
 
-# Queremos implementar una función que dado un número "n" 
-# calcule la suma de los primeros n enteros
+# Queremos implementar una función que dado un número entero "n" 
+# calcule la suma de los primeros n números
 
 
 
