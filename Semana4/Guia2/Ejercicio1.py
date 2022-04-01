@@ -33,14 +33,14 @@ for n in valores_de_n:
 
 print(tiempos)
     
-# GRaficar
+#Graficación
 
-# plt.clf()
-# plt.plot(valores_de_n, tiempos, label="verificar lista ordenada")
-# plt.xlabel("numero de elementos de la lista")
-# plt.ylabel("tiempo del algoritmo")
-# plt.title("Tiempos en fn. del nro de elementos")
-# plt.legend()
+plt.clf()
+plt.plot(valores_de_n, tiempos, label="verificar lista ordenada")
+plt.xlabel("numero de elementos de la lista")
+plt.ylabel("tiempo del algoritmo")
+plt.title("Tiempos en fn. del nro de elementos")
+plt.legend()
     
 
     
