@@ -12,7 +12,7 @@ class MonticuloBinario:
         self.tamanoActual = 0  
     
     def construirMonticulo(self,unaLista):
-         """Construye un montículo nuevo a partir de una lista de claves"""
+        """Construye un montículo nuevo a partir de una lista de claves"""
         i = len(unaLista) // 2
         self.tamanoActual = len(unaLista)
         self.listaMonticulo = [0] + unaLista[:]
@@ -48,7 +48,7 @@ class MonticuloBinario:
         
         
         #--------------------------------------           
-
+    
     def hijoMin(self,index):
         """función auxiliar para la inflitración hacia abajo"""
         #---------------------------------------------
